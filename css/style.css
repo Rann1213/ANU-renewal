@@ -1,7 +1,7 @@
 @charset "utf-8";
 @import "./reset.css";
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
 
 #main_header{
     width:100%;
@@ -74,7 +74,7 @@
     display:inline-block;
     width:150px;
     height:50px;
-    font-family:'IBM Plex Sans', sans-serif;
+    font-family:'GFS Didot', sans-serif;
     font-weight:700;
     font-size:30px;
     color:#000;
@@ -110,7 +110,7 @@
 #main_header>.innerbox>.navbar>ul>li>.sub>ul>li>a{
     display:block;
     width:100%;
-    font-family:'IBM Plex Sans', sans-serif;
+    font-family:'GFS Didot', sans-serif;
     font-weight:500;
     font-size:18px;
     color:#000;
@@ -182,7 +182,7 @@
     bottom:0;
 }
 #main_visual>.banner>.controls>.swiper-pagination{
-    font-family:'IBM Plex Sans', sans-serif;
+    font-family:'GFS Didot', sans-serif;
     font-size:18px;
     color:#fff;
     text-align:center;
@@ -195,7 +195,7 @@ section>h2{
     height:40px;
     margin:0 auto;
     text-align:center;
-    font-family:'IBM Plex Sans', sans-serif;
+    font-family:'GFS Didot', sans-serif;
     font-size:30px;
     font-weight:700;
     line-height:40px;
@@ -212,7 +212,7 @@ section>h2{
     box-sizing:border-box;
     box-shadow:2px 2px 3px 0 rgba(0,0,0,0.3);
     margin:30px auto 0;
-    font-family:'IBM Plex Sans', sans-serif;
+    font-family:'GFS Didot', sans-serif;
     font-size:14px;
     font-weight:700;
     text-align:left;
@@ -544,7 +544,7 @@ section>h2{
     width:50px;
     height:50px;
     border-radius:50%;
-    font-family:'IBM Plex Sans', sans-serif;
+    font-family:'GFS Didot', sans-serif;
     font-size:14px;
     font-weight:700;
     text-align:center;
@@ -743,7 +743,7 @@ footer>p>span{
     }
     section>h2{
         height:70px;
-        font-size:50px;
+        font-size:40px;
         line-height:70px;
     }
     #project, #about, #service, #news, #support{
@@ -795,7 +795,7 @@ footer>p>span{
         height:60px;
         font-family:'Noto Sans', sans-serif;
         font-weight:700;
-        font-size:26px;
+        font-size:22px;
         color:#000;
         text-align:center;
         line-height:60px;
@@ -810,7 +810,7 @@ footer>p>span{
         display:none;
     }
     #project>.content_body>div>p{
-        font-size:38px;
+        font-size:26px;
         margin-bottom:36px;
     }
     #project>.content_body>div>p>span:first-of-type{
@@ -823,7 +823,7 @@ footer>p>span{
         width:100%;
         display:flex;
         flex-direction:row-reverse;
-        gap:50px;
+        gap:20px;
         align-items:flex-start;
         padding:0;
     }
@@ -831,8 +831,7 @@ footer>p>span{
         margin:0;
     }
     #project>.content_body>div>div>.content_top{
-        flex:850 1 850px;
-        width:100%;
+        flex:0 1 850px;
         height:auto;
         position:relative;
         aspect-ratio:850 / 516;
@@ -851,10 +850,10 @@ footer>p>span{
         margin:0;
     }
     #project>.content_body>div>.first{
-        margin-bottom:20px;
+        margin-bottom:50px;
     }
     #project>.content_body>div>div>ul{
-        flex:300 1 300px;
+        flex:0 1 300px;
         display:flex;
         flex-direction:column;
         gap:3px;
@@ -914,7 +913,7 @@ footer>p>span{
         border:0;
     }
     #about>.content_body>p>strong{
-        font-size:30px;
+        font-size:26px;
     }
     #about>.content_body>.contents{
         width:100%;
@@ -932,7 +931,7 @@ footer>p>span{
         gap:30px;
         flex:1 1 0;
         padding:20px 50px;
-        border-right:3px solid #636466;
+        border-right:1px solid #c7c8ca;
         box-sizing:border-box;
     }
     #about>.content_body>.contents>ul>li:nth-of-type(3){
@@ -940,7 +939,7 @@ footer>p>span{
     }
     #about>.content_body>.contents>ul>li>h3{
         width:100%;
-        font-size:30px;
+        font-size:26px;
         text-align:center;
     }
     #about>.content_body>.contents>ul>li>h3>span{
@@ -959,7 +958,7 @@ footer>p>span{
     }
     #service>.content_body>ul{
         flex:1 1 0;
-        border-right:3px solid #636466;
+        border-right:1px solid #c7c8ca;
         padding:10px 15px;
         min-height:250px;
     }
@@ -1011,7 +1010,7 @@ footer>p>span{
         text-align:left;
         position:relative;
         padding:10px 20px;
-        border-right:3px solid #636466;
+        border-right:1px solid #c7c8ca;
         box-sizing:border-box;
     }
     #news>.news>.swiper-wrapper>div:last-child{
@@ -1068,11 +1067,13 @@ footer>p>span{
     #support{
         display:flex;
         justify-content:center;
-        gap:50px;
+        border:3px solid #c7c8ca;
+        border-bottom:0;
+        box-sizing:border-box;
     }
     #support>div{
         flex:1 1 0;
-        padding:40px 30px 0;
+        padding:40px 40px 0;
         box-sizing:border-box;
         min-height:500px;
         position:relative;
@@ -1091,20 +1092,21 @@ footer>p>span{
     }
     #support>div>h2{
         height:70px;
-        font-size:50px;
+        font-family:'GFS Didot', sans-serif;
+        font-size:40px;
         line-height:70px;
         margin-bottom:50px;
     }
     #support>.recruit>.more{
         position:absolute;
-        right:30px;
+        right:40px;
         top:50px;
     }
     #support>.recruit>.content_body>strong{
         display:block;
         font-family:'Noto Sans', sans-serif;
         font-weight:600;
-        font-size:26px;
+        font-size:24px;
         color:#000;
         padding-bottom:20px;
         border-bottom:3px solid #636466;
@@ -1169,7 +1171,7 @@ footer>p>span{
     }
     #support>.contact>.content_body>form>#submit{
         position:absolute;
-        right:30px;
+        right:40px;
         top:50px;
         background:none;
         border:none;
@@ -1180,7 +1182,7 @@ footer>p>span{
         padding:0 10px;
         box-sizing:border-box;
         margin:0;
-        font-family:'IBM Plex Sans', sans-serif;
+        font-family:'GFS Didot', sans-serif;
         font-size:18px;
         font-weight:700;
         text-align:center;
@@ -1221,17 +1223,29 @@ footer>p>span{
         width:100%;
         height:100%;
     }
-    footer>.footer_top>.insta{
+    footer>.footer_top>.sns{
+        display:flex;
+        gap:20px;
+    }
+    footer>.footer_top>.sns>.desk{
         width:40px;
         height:40px;
         text-indent:-9999px;
         background:url(../image/icon/insta.svg) no-repeat center center;
         background-size:contain;
     }
+    footer>.footer_top>.sns>.youtube{
+        background-image:url(../image/icon/youtube.svg);
+    }
+    footer>.footer_top>.sns>.twitter{
+        background-image:url(../image/icon/x.svg);
+    }
     footer>.footer_bot{
         width:62.5%;
         min-width:900px;
         margin:0 auto 30px;
+        padding:0 45px;
+        box-sizing:border-box;
         display:flex;
         flex-direction:row-reverse;
         justify-content:space-between;
@@ -1241,7 +1255,7 @@ footer>p>span{
         margin:0;
     }
     footer>.footer_bot>ul>li>a{
-        font-size:16px;
+        font-size:12px;
     }
     footer>.footer_bot>address>ul{
         display:flex;
@@ -1249,14 +1263,14 @@ footer>p>span{
         gap:3px;
     }
     footer>.footer_bot>address>ul>dd{
-        font-size:14px;
+        font-size:12px;
         text-align:left;
     }
     footer>p{
         display:block;
         width:62.5%;
         margin:0 auto;
-        font-size:12px;
+        font-size:10px;
         line-height:normal;
     }
     footer>p>span{

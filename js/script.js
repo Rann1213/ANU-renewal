@@ -1,6 +1,9 @@
 {
     const swiper = new Swiper(".banner", {
         loop: true,
+        autoplay: {
+            delay:5000,
+        },
         effect: 'fade',
         pagination: {
             el: ".banner .swiper-pagination",
